@@ -1,0 +1,88 @@
+@import "colors";
+@import '~react-pro-sidebar/dist/scss/styles.scss';
+
+// Roboto Font
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  height: 100vh;
+  width: 100%;
+  color: $primary;
+  background-color: $bodyBackground;
+  font-family: "Roboto", sans-serif;
+}
+
+.root, .app, .main-container, .main-row, .info {
+  height: 100vh;
+  width: 100%;
+}
+
+a {
+  color: $link;
+
+  &:hover {
+    color: $linkHover;
+  }
+}
+
+.content {
+  height: 100vh;
+  overflow: auto;
+}
+
+// Info Component
+.sidebar {
+  z-index: 10;
+
+  .col {
+    text-align: center;
+  }
+}
+
+.headshot {
+  width: 45px;
+  border-radius: 5px;
+}
+
+// Header/Nav Component
+.header {
+  background-color: $bodyBackground;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+
+  .navbar-brand {
+    color: $header;
+    ;
+  }
+}
+
+// Projects Component
+.projects {
+
+  .col {
+    text-align: center;
+  }
+
+  h5 {
+    color: $header;
+    ;
+  }
+
+  .logo-row {
+    // border-top: 2px solid $header;
+    border-bottom: 2px solid $header;
+
+    p, a {
+      color: $header;
+    }
+
+   
+
+    .logo {
+      width: 50%;
+    }
+  }
+
+}
+
