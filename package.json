@@ -22,7 +22,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "node server/server.js",
+    "startBuild": "serve -s build",
     "startLocal": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
