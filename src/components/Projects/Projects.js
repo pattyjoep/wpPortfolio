@@ -71,7 +71,7 @@ const Projects = () => (
                     </Card.Link>
                   </Col>
                   <Col>
-                    <Card.Link href=" https://pjpetro.github.io/DayPlanner" target="_blank">
+                    <Card.Link href="https://pjpetro.github.io/DayPlanner" target="_blank">
                       <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="lg" />
                     </Card.Link>
                   </Col>
