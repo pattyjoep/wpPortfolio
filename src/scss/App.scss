@@ -1,5 +1,6 @@
 @import "colors";
 @import '~react-pro-sidebar/dist/scss/styles.scss';
+
 // Roboto Font
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -69,7 +70,6 @@ a {
   }
 
   .logo-row {
-    // border-top: 2px solid $header;
     border-bottom: 2px solid $header;
 
     p, a {
