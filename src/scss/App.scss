@@ -17,6 +17,15 @@ body {
   width: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $header;
+}
+
 a {
   color: $link;
 
@@ -44,17 +53,19 @@ a {
   border-radius: 5px;
 }
 
+
+
 // Header/Nav Component
 .header {
   background-color: $bodyBackground;
   position: sticky;
   top: 0;
   z-index: 5;
-
+  
   .navbar-brand {
     color: $header;
-    ;
   }
+  
 }
 
 // Projects Component
@@ -62,11 +73,6 @@ a {
 
   .col {
     text-align: center;
-  }
-
-  h5 {
-    color: $header;
-    ;
   }
 
   .logo-row {
@@ -79,8 +85,6 @@ a {
     a:hover {
       text-decoration: none;
     }
-
-   
 
     .logo {
       width: 50%;

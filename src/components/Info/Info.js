@@ -42,10 +42,7 @@ const Info = () => (
       <SidebarFooter>
         <Menu iconShape="circle">
           <MenuItem icon={<FontAwesomeIcon icon={faExpand} />} onClick={sidebarToggle}> Collapse</MenuItem>
-        </Menu>
-        
-       
-        
+        </Menu> 
       </SidebarFooter>
     </ProSidebar>
   </div>

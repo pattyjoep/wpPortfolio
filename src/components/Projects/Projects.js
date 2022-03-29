@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Projects.module.scss';
 
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -60,7 +61,7 @@ const Projects = () => (
               <Card.Body>
                 <Card.Title>Task Manager</Card.Title>
                 <Card.Text>
-                  Plan and organize your workday with this application, which uses local storage to save tasks and removes them from local storage when complete.
+                  Plan your workday with this application, which uses a drag and drop interface update the staus of tasks to keep everything nice and organized.
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -85,7 +86,7 @@ const Projects = () => (
               <Card.Body>
                 <Card.Title>Note Taker</Card.Title>
                 <Card.Text>
-                  Add something to your shopping list or just a reminder for later, add it using this note taking application deployed using Heroku.
+                  Add something to your shopping list or just a reminder for later using this note taking application.
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -160,7 +161,7 @@ const Projects = () => (
               <Card.Body>
                 <Card.Title>Weather Dashbord</Card.Title>
                 <Card.Text>
-                  Easily look up the weather of a specific city with this weather dashboard.
+                  Look up the weather of a specific city with this weather dashboard and see the 5 day forecast.
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -180,7 +181,7 @@ const Projects = () => (
             </Card>
           </Col>
         </Row>    
-        <Row>
+        {/* <Row>
           <h5>Graphics & Logos:</h5>
           <Col>
             <Row className="mt-3 logo-row">
@@ -208,7 +209,7 @@ const Projects = () => (
               </Col>
             </Row>
           </Col>
-        </Row>
+        </Row> */}
     </Container>
   </div>
 );
