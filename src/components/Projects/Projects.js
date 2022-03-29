@@ -27,7 +27,7 @@ import wizardTreeLogoWhite from "./images/logos/WizardTreeLogoWhite.png"
 
 const Projects = () => (
   <div className="projects" data-testid="Projects">
-    <Container className="mt-5 mb-2">
+    <Container className="mt-2 mb-2">
         <Row>
           <h5>Websites & Applications:</h5> 
           <Col sm={12} lg={4} className="mb-4">
@@ -36,7 +36,7 @@ const Projects = () => (
               <Card.Body>
                 <Card.Title>Matrixio</Card.Title>
                 <Card.Text>
-                  Utilize this M.E.R.N stack application to conduct matrix training exercises online. Create an account, add a student, start a matrix.
+                  M.E.R.N stack application to conduct matrix training exercises online. Create an account, add a student, start a matrix.
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -61,7 +61,7 @@ const Projects = () => (
               <Card.Body>
                 <Card.Title>Task Manager</Card.Title>
                 <Card.Text>
-                  Plan your workday with this application, which uses a drag and drop interface update the staus of tasks to keep everything nice and organized.
+                  Kanban style task manager with a drag and drop UI to update the staus of tasks, keeping all your "to-do's" nice and tidy.
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
@@ -111,7 +111,7 @@ const Projects = () => (
               <Card.Body>
                 <Card.Title>Password Generator</Card.Title>
                 <Card.Text>
-                  Need a password, but can't think of anything to use? Generate a random one with the click of a button!
+                  Need a password, but can't think of anything to use? Generate a secure password here with the click of a button!
                 </Card.Text>
               </Card.Body>
               <Card.Footer>

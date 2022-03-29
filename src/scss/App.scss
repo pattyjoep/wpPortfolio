@@ -75,8 +75,12 @@ a {
     text-align: center;
   }
 
+  img {
+    width: 100%;
+  }
+
   .logo-row {
-    border-bottom: 2px solid $header;
+    border-bottom: 2px solid #f2f2f2;
 
     p, a {
       color: $header;
