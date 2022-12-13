@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/wpPortfolio/static/css/main.07c81eae.css",
+    "main.js": "/wpPortfolio/static/js/main.19f4bcca.js",
+    "static/js/787.1ed0c42c.chunk.js": "/wpPortfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/MatrixioScreenshot.png": "/wpPortfolio/static/media/MatrixioScreenshot.934ad5d046f9740d95d7.png",
+    "static/media/DiplomacyScreenshot.png": "/wpPortfolio/static/media/DiplomacyScreenshot.06fe89c9713557802a08.png",
+    "static/media/headshot.png": "/wpPortfolio/static/media/headshot.f2179f16345bd5ddf2af.png",
+    "static/media/WeatherDashScreenshot.png": "/wpPortfolio/static/media/WeatherDashScreenshot.41c9b576b66c30032b33.png",
+    "static/media/DayPlannerScreenshot.png": "/wpPortfolio/static/media/DayPlannerScreenshot.a2b7f3e70031fc8d3721.png",
+    "static/media/TimeVeilSoloBlue.png": "/wpPortfolio/static/media/TimeVeilSoloBlue.e9a74ee8f695dee4ef74.png",
+    "static/media/PasswordGeneratorScreenshot.png": "/wpPortfolio/static/media/PasswordGeneratorScreenshot.7a9b1f6b48af17141bb9.png",
+    "static/media/NoteTakerScreenshot.png": "/wpPortfolio/static/media/NoteTakerScreenshot.b691298cfcedadb74c04.png",
+    "static/media/PatrickJPetroResume.pdf": "/wpPortfolio/static/media/PatrickJPetroResume.34312228e1d4ae4b14f1.pdf",
+    "static/media/StichLogoSolo.png": "/wpPortfolio/static/media/StichLogoSolo.bab07567367ec991a9a8.png",
+    "static/media/CodeBlockLogo.png": "/wpPortfolio/static/media/CodeBlockLogo.c92f7f27b14f0607172d.png",
+    "static/media/WizardTreeLogoWhite.png": "/wpPortfolio/static/media/WizardTreeLogoWhite.0700342d7c0dc5088d22.png",
+    "static/media/MatrixioLogoSolo.png": "/wpPortfolio/static/media/MatrixioLogoSolo.29d87c428c524de959f7.png",
+    "static/media/logo.svg": "/wpPortfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/wpPortfolio/index.html",
+    "main.07c81eae.css.map": "/wpPortfolio/static/css/main.07c81eae.css.map",
+    "main.19f4bcca.js.map": "/wpPortfolio/static/js/main.19f4bcca.js.map",
+    "787.1ed0c42c.chunk.js.map": "/wpPortfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07c81eae.css",
+    "static/js/main.19f4bcca.js"
+  ]
+}
